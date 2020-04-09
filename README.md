@@ -328,25 +328,14 @@ export class AppRoutingModule { }
 
 
 ## components
-Under `components` folder we wrote all of our components individually. 
-We have written these components to make the developer’s life easy. 
+Under `components` folder we generated all of our components individually. 
+We have generated these components to make the developer’s life easy. 
 By using these basic components, For example in our components directory there is `header`, `welcome` , `footer` folder where we wrote our different styled component. For example `welcome` component-
 
 ### Component folder structure
 ```text
 |-- components
     ....
-    |-- accounts ( accounts component folder )
-        - login ( login section )
-        - reset ( reset section )
-        - signup ( signup section )
-    .
-    ..
-        
-    |-- inner-pages ( inner pages folder )
-        - coming-soon ( coming-soon page )
-        - contact-page ( contact page )
-    .
     ..
     |-- welcome ( welcome component folder )
         - welcome-one ( main demo welcome section )
@@ -357,6 +346,18 @@ By using these basic components, For example in our components directory there i
 
 ### Contact Page component
 `inner-pages/contact-page/contact-page.component.html`
+
+```text
+|-- components
+    ....
+    ..
+    |-- inner-pages ( all inner-pages folder )
+        ......
+        - contact-page ( contact-page component )
+        ...... ( and other )
+    ...    
+```
+
 ```html
 <div class="contact-page">
     <div class="main">
